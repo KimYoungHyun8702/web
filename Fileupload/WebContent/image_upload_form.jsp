@@ -6,7 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>1개 사진 업로드폼</h2>
+<h3>1개 사진 업로드폼</h3>
 <!-- 파일 업로드는 반드시 POST방식으로 --> <!-- 경로를 굳이 초기파라미터로 잡을 필요는 없다 ex)${initParam.rootPath }-->
 <form action="${initParam.rootPath }/imageupload" method="post" enctype="multipart/form-data"> 
 업로더 : <input type="text" name="uploader"><br>
